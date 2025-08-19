@@ -1,5 +1,5 @@
 **Let's play with ProP-PD results!**\
-Let's say you made selection experiments with the (bait) WW domain (Pfam accession PF00397) of the protein Histone-lysine N-methyltransferase SETD2 (UniProt accession Q9BYW2). After your hard work you analised your data and found these peptides to be enriched:\
+Let's say you made selection experiments with the bait: WW domain (Pfam accession PF00397) of the protein Histone-lysine N-methyltransferase SETD2 (UniProt accession Q9BYW2) against the RiboVD (RNA viruses disorderome) library. After your hard work you analised your data and found these peptides to be enriched:\
 `AELNPPPYNHSYESLH`\
 `NHHYAELNPPPYNHSY`\
 `PPPYNHSYESLHPIPQ`\
@@ -58,6 +58,7 @@ Let's say you made selection experiments with the (bait) WW domain (Pfam accessi
 
 **TOOL 1: Annotation with PepTools**\
 To know from which viruses this peptides come from we'll use the annotation tool PepTools (https://slim.icr.ac.uk/tools/peptools/input). Check that you selected the correct "Species" group and if you want you can include the UniProt accession of the bait to let the tool check for previously published evidence of itneractions.\
+(here's a link to a pre-run project in case it's taking too long: https://slim.icr.ac.uk/tools/peptools/results/motif?jobId=2a04197208bd4eca0d227a0a8eccea70)\
 
 **TOOL 2: Expanding hits with SLiMSearch**\
 Now that you have the `[LP]P.Y` regular expression describing the SLiM binding the WW domain from STED2, let's check if we can find more instances of the motif in a specific disorderome informatically using the tool SLiMSearch (https://slim.icr.ac.uk/tools/slimsearch/input).\
